@@ -324,3 +324,27 @@ text-align: center;
 .testimonial-col .fa-star,.fa-star-half-stroke{
     color: gold;
 }
+
+/* Call to action */
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(to bottom right,rgba(0,0,0,0.3),rgba(0,0,0,8)),url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+}
+@media(max-width:700px){
+    .cta h1{
+        font-size: 20px;
+    }
+}
